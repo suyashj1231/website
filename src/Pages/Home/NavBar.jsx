@@ -35,8 +35,10 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive? "active" : ""}`}>
             <div>
-                
+                <img src="./image/'logo.svg" alt="Logo" />
             </div>
         </nav>
     )
 }
+
+export default Navbar;
