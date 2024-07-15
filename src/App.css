@@ -204,7 +204,7 @@ h3{
 .hero--section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 133.33px 85.333px 1333.333px;
+    padding: 133.33px 85.333px 133.333px;
 
     justify-content: space-between;
     gap: 32px;
@@ -334,4 +334,13 @@ h3{
     line-height: 32px;
 }
 
-/* Skills Styles Ends */
+/* Skills Styles End*/
+
+/* About Us */
+.about--section{
+    display: grid;
+    padding: 133.3px 85.3px;
+    align-items: center;
+    gap: 113.6px;
+    grid-template-columns: repeat(2,1fr);
+}
