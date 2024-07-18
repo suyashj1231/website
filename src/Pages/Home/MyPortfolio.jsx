@@ -25,6 +25,20 @@ export default function MyPortfolio() {
             </button>
         </div>
     </div>
-    <div className="portfolio--section--container"></div>
+    <div className="portfolio--section--container">
+        {data?.portfolio?.map((item, index) => (
+            <div key={index} className="portfolio--section--card">
+                <div className="portfolio--section--img">
+                    <img src={item.img} alt="Placeholder" />
+                </div>
+                <div className="portfolio--section--card--content">
+                    <h3 className="portfolio--section--title">
+                        {item.title}
+                    </h3>
+                    <p className="text-md"></p>
+                </div>
+            </div>
+        ))}
+    </div>
 </section>
 }
