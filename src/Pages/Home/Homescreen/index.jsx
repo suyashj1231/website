@@ -11,7 +11,7 @@ export default function Homescreen() {
             <MySkills />
             <AboutMe />
             <MyPortfolio />
-            <Testimonial />
+            {/* <Testimonial /> */}
         </>
     )
     
