@@ -62,18 +62,20 @@
         },
         {
             "id": "2",
-            "src": "./img/placeholder-image-1.png",
-            "title": "App Dashboard",
+            "count": "5",
+            "src": "./img/avatar-image-1.png",
             "description": "lorem o[sum dolar sit amet, consectetur adipiscing elit. Nullam auctor libero sit amet",
-            "link": "View in Github"
+            "author_name": "Mearry Doe",
+            "author_description": "Starbucks"
             
         },
         {
             "id": "3",
-            "src": "./img/placeholder-image-2.png",
-            "title": "Easy Rentn",
+            "count": "5",
+            "src": "./img/avatar-image-2.png",
             "description": "lorem o[sum dolar sit amet, consectetur adipiscing elit. Nullam auctor libero sit amet",
-            "link": "View in Github"
+            "author_name": "Chris HJanson",
+            "author_description": "Mazada"
         }
 
     ]
