@@ -6,17 +6,17 @@ export default function AboutMe() {
         </div>
         <div className="hero--section--content--box about--section--box">
             <div className="hero--section--content">
-                <p className="section--title">
+                {/* <p className="section--title">
                     About
-                </p>
+                </p> */}
                 <h1 className="skills-section--heading">
                     About Me
                 </h1>
                 <p className="hero--section-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, debitis fugiat odit nostrum molestias sed quis cumque iste dolores quam a at quisquam, harum ipsa et quaerat, sint modi natus.
+                   Im a passionate and versatile full stack developer with a keen eye for creating seamless, end-to-end web solutions. With expertise in both front-end and back-end technologies, I bring ideas to life by crafting intuitive user interfaces and robust server-side applications. My commitment to clean, efficient code and continuous learning allows me to stay at the forefront of web development trends.
                 </p>
                 <p className="hero--section-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, debitis fugiat odit nostrum molestias sed quis cumque iste dolores quam a at quisquam, harum ipsa et quaerat, sint modi natus.
+                   I thrive on turning complex problems into elegant solutions. Let's collaborate and bring your digital vision to reality!
                 </p>                
             </div>
         </div>
