@@ -1,16 +1,16 @@
-{
+{hv
     "skills": [
         {
             "id": "1",
             "src": "./img/product-chain-1.png",
             "title": "Front-End",
-            "description": "lorem o[sum dolar sit amet, consectetur adipiscing elit. Nullam auctor libero sit amet"
+            "description": "Proficient in HTML, CSS, and JavaScript. Experienced with modern frameworks like React and Angular. Skilled in creating responsive and interactive user interfaces"
         },
         {
             "id": "2",
             "src": "./img/tag-1.png",
             "title": "Back-End",
-            "description": "lorem o[sum dolar sit amet, consectetur adipiscing elit. Nullam auctor libero sit amet"
+            "description": "Experienced in server-side programming with Node.js and Express. Knowledgeable in database design using SQLite and Firebase. Familiar with cloud platforms including Google Cloud, Azure, and AWS.andr"
         },
         {
             "id": "3",
