@@ -1,4 +1,4 @@
-{hv
+{
     "skills": [
         {
             "id": "1",
@@ -10,19 +10,19 @@
             "id": "2",
             "src": "./img/tag-1.png",
             "title": "Back-End",
-            "description": "Experienced in server-side programming with Node.js and Express. Knowledgeable in database design using SQLite and Firebase. Familiar with cloud platforms including Google Cloud, Azure, and AWS.andr"
+            "description": "Experienced in server-side programming with Node.js and Express. Knowledgeable in database design using SQLite and Firebase. Familiar with cloud platforms including Google Cloud, and AWS"
         },
         {
             "id": "3",
             "src": "./img/feather-pen-2.png",
             "title": "UI & UX Design",
-            "description": "lorem o[sum dolar sit amet, consectetur adipiscing elit. Nullam auctor libero sit amet"
+            "description": "As a passionate UI/UX designer, I bring a blend of creativity and user-centric thinking to every project. My experience spans various aspects of design, including  designations and Figma designs"
         },
         {
             "id": "4",
             "src": "./img/feather-pen-1.png",
             "title": "Webflow-Development",
-            "description": "lorem o[sum dolar sit amet, consectetur adipiscing elit. Nullam auctor libero sit amet"
+            "description": "Proficient in Android app development using Android Studio, Kotlin, and Dart. Experienced in creating responsive and user-friendly mobile applications for the Android platform."
         }
     ],
 
