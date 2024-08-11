@@ -18,7 +18,7 @@ export default function HeroSection() {
                     <br /> Welcome to my portfolio, hope you enjoy your stay!  
                     </p>
                 </div>
-                <button className="btn btn-primary">Get in Touch</button>
+                {/* <button className="btn btn-primary">Get in Touch</button> */}
             </div>
             <div className="hero--section--img">
                 <img src="./img/hero_img_me_2.png" alt="Hero Section" />

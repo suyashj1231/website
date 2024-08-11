@@ -1,14 +1,15 @@
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
+  const githubRepoUrl = "https://github.com/suyashj1231";
     return( <section className="portfolio--section" id="MyPortfolio"> 
         <div className="portfolio--container-box">
             <div className="portfolio--container">
-                <p className="sub--title">Recent Projects</p>
+                <p className="sub--title"></p>
                 <h2 className="section--heading">My Portfolio</h2>
             </div>
             <div>
-            <button className="btn btn-github">
+            <a href={githubRepoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-github">
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -22,7 +23,7 @@ export default function MyPortfolio() {
                         fill="currentColor"/>
                 </svg>
                 Visit My GitHub
-            </button>
+            </a>
         </div>
     </div>
     <div className="portfolio--section--container">

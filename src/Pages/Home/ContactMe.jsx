@@ -2,10 +2,10 @@ export default function ContactMe() {
   return(
     <section id = "Contact" className="contact--section">
         <div >
-            <p className="sub-title">Get in Touch</p>
+            <p className="sub-title"></p>
             <h2>Contact Me</h2>
             <p className="text-lg">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, consequatur!
+                Im open to any conversations, feel free to reach out to me!
             </p>
         </div>
         <form className="contact--form--container">
@@ -35,7 +35,7 @@ export default function ContactMe() {
                     <input type="number" className="contact--input text-md" name="phone-number" id="phone-number" required/>
                 </label>
             </div>
-            <label htmlFor="choose-topic" className="contact--label">
+            {/* <label htmlFor="choose-topic" className="contact--label">
                     <span className="text-md">
                         Choose a Topic
                     </span>
@@ -45,17 +45,17 @@ export default function ContactMe() {
                         <option >Item 2</option>
                         <option >Item 3</option>
                     </select>
-            </label>
+            </label> */}
             <label htmlFor="messag" className="contact--label">
                 <span className="text-md">
                     Message
                 </span>
                 <textarea  className="contact--input text-md" id="message" rows="8" placeholder="Type your Message..."/>
             </label>
-            <label htmlFor="checkbox" className="checkbox--label">
+            {/* <label htmlFor="checkbox" className="checkbox--label">
                 <input type="checkbox" required name="checkbox" id="checkbox" />
                 <span className="text-sm"> I accept the terms</span>
-            </label>
+            </label> */}
             <div>
                 <button className="btn btn-primary contact--form">
                     Submit

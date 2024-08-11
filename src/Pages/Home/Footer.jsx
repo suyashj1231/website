@@ -5,9 +5,9 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div>
+        {/* <div>
           <img src="./img/logo.svg" alt="Logoipsum" />
-        </div>
+        </div> */}
         <div className="footer--items">
           <ul>
             <li>
@@ -122,6 +122,29 @@ function Footer() {
                   />
                 </svg>
               </a>
+            </li>
+            <li>
+                <a
+                    href="mailto:your-email@gmail.com"
+                    className="navbar--content"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 33 33"
+                    fill="none"
+                    >
+                    <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M16.5 3C9.59644 3 4 8.59644 4 15.5C4 22.4036 9.59644 28 16.5 28C23.4036 28 29 22.4036 29 15.5C29 8.59644 23.4036 3 16.5 3ZM16.5 26C10.701 26 6 21.299 6 15.5C6 9.70101 10.701 5 16.5 5C22.299 5 27 9.70101 27 15.5C27 21.299 22.299 26 16.5 26ZM11.5 11.5L16.5 15.5L21.5 11.5V19.5H11.5V11.5ZM16.5 14L11.5 10.5H21.5L16.5 14Z"
+                        fill="black"
+                    />
+                    </svg>
+                </a>
             </li>
             {/* <li>
               <a
